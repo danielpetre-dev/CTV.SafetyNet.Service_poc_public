@@ -21,7 +21,7 @@ namespace CTV.SafetyNet.Service_poc.Services.Checkers
 		}
 
 		public string Name => "Duration";
-		public bool CanFix => true;
+		public bool CanFix => false;
 		public int Order => 20;
 
 		public async Task<VideoIssue> CheckAsync(VideoStatus status, CancellationToken ct = default)
